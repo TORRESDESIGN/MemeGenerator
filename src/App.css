@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    width: 550px;
+}
+.logo-container {
+      display: flex;
+      align-items: center;
+      margin-left: 29px;
+}
+
+.course {
+    margin-left: auto;
+    margin-right: 28px;
+}
+
+h1 {
+    color: white;
+    font-size: 21px;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -2.075px;
+    line-height: normal;
+}
+h3 {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+.logo{
+  height: 40px;
+}
