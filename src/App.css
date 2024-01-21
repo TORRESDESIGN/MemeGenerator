@@ -48,3 +48,7 @@ h3 {
 .logo{
   height: 40px;
 }
+.form-container {
+  margin: auto;
+  width: 435px;
+}
