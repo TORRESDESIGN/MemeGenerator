@@ -51,22 +51,20 @@ h3 {
 }
 
 .form-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  width: 435px;
+    margin: auto;
+    width: 435px;
 }
 
-.top-text {
-  background: red;
-  height: 20px;
-  width: 201px;
+.form-row {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
 }
-.bot-text {
-  width: 201px;
-}
-
 .button {
-  height: 40px;
-  width: 477px;
+    margin-top: 14.99px;
+    color: white;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
 }
